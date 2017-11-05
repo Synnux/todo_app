@@ -4,7 +4,7 @@
   "description": "fuck off",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack && webpack-dev-server --colors"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,21 @@
   "bugs": {
     "url": "https://github.com/Synnux/todo_app/issues"
   },
-  "homepage": "https://github.com/Synnux/todo_app#readme"
+  "homepage": "https://github.com/Synnux/todo_app#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "json-loader": "^0.5.4",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
 }
